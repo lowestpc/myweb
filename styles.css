@@ -99,7 +99,7 @@
     .bg_image {
         background-image: url("img/beforelordran.webp"); 
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
     }
     .strokeme {
         color: white;
