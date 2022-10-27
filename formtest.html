@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<form action="formtest.php" method="post">
+<label for="namaDepan">Nama Depan</label><br>
+<input type="text"  name="namaDepan"><br>
+<label for="namaBelakang">Nama Belakang</label><br>
+<input type="text" name="namaBelakang"><br>
+<br>
+<p>Pilih Jenis Kelamin</p>
+
+<input type="radio" name="jenisKelamin" value="Laki Laki">
+<label for="laki">Laki-Laki</label><br>
+<input type="radio" name="jenisKelamin" value="Perempuan">
+<label for="perempuan">Perempuan</label><br>
+<input type="radio" name="jenisKelamin" value="Tidak Menjawab">
+<label for="tidakMenjawab">Tidak Menjawab</label>
+
+<br>
+<p>Kendaraan yang di miliki</p>
+
+<input type="checkbox" name="kendaraan[]" value="sepeda">
+<label for="sepeda">Sepeda</label><br>
+<input type="checkbox" name="kendaraan[]" value="sepedaMotor">
+<label for="sepedaMotor">Sepeda Motor</label><br>
+<input type="checkbox" name="kendaraan[]" value="mobil">
+<label for="mobil">Mobil</label><br>
+
+<input type="submit" value="submit"/>
+</form>
+
+
+<br>
+<a href=index.html>index</a>
+
+</form>
+</body>
+
+</html>
