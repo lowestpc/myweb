@@ -26,7 +26,7 @@
         margin-bottom: 10px;
     }
     /*Header*/
-    .header{background-image: url("img/beforelordran.webp"); background-position: center ; padding: 15px; overflow: hidden;}
+    .header{background-image: url("img/beforelordran.webp"); background-position: center; background-size: 100%; padding: 15px; overflow: hidden;}
     .header img {
         width: 50px; height: auto;
         margin-right: 15px;
