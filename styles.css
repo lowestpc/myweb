@@ -1,172 +1,50 @@
-    :root {
-        
-        --primary: #202020;
-        --secondary: #464646;
-        --light: #fff;
-        --tertiary: #e9b05b;
-        --orange: #CFB997;
-        --dark: rgb(211, 167, 110);
-        --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-    }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     
-    * {box-sizing: border-box;}
+}
 
-    p{
-        font-family: sans-serif;
-    }
+.grid-item {
+    place-self: center;
+}
 
-    h1{
-        font-family: sans-serif;
-    }
+h1 {
+    font-family: sans-serif, Arial, Helvetica;
+    color: aliceblue;
+    text-align: center;
+}
 
-    .box {
-        background-color: var(--secondary);
-        
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    /*Header*/
-    .header{background-image: url("img/beforelordran.webp"); background-position: center; background-size: 100%; padding: 15px; overflow: hidden;}
-    .header img {
-        width: 50px; height: auto;
-        margin-right: 15px;
-        float: left;}
-    .header h1, header p {
-        margin-left: 15px;
-        display: block;
-        margin: 2px 0 0 0;}
-
-    .topnav {
-        overflow: hidden;
-        background-color: var(--secondary);
-    }
-    .topnav a{
-        float: left;
-        color: var(--dark);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px
-    }
-
-    .topnav a:hover {
-        background-color: var(--light);
-        color: var(--dark);
-    }
-
-    .topnav a.active {
-        background-color: var(--tertiary);
-        color: var(--light);
-    }
-
-
-    .row::after 
-    {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-
-    .menu ul 
-    {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    .menu li 
-    {
-        padding: 8px;
-        margin-bottom: 7px;
-        background-color: var(--dark);
-        color: var(--secondary);
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-    .menu li:hover 
-    {
-        background-color: var(--brown);
-    }
-
-    .aside 
-    {
-        background-color: var(--secondary);
-        padding: 15px;
-        color: var(--dark);
-        text-align: center;
-        font-size: 14px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-    .footer 
-    {
-        background-color: var(--secondary);
-        color: var(--dark);
-        text-align: center;
-        font-size: 22px;
-        padding: 15px;
-    }
-
-    [class*="col-"] 
-    {
-        float: left;
-        padding: 15px;
-    }
-
-    /* For mobile phones: */
-    [class*="col-"] 
-    {
-        width: 100%;
-    }
-
-    @media only screen and (min-width: 600px) 
-    {
-        /* For tablets: */
-        .col-s-1 {width: 8.33%;}
-        .col-s-2 {width: 16.66%;}
-        .col-s-3 {width: 25%;}
-        .col-s-4 {width: 33.33%;}
-        .col-s-5 {width: 41.66%;}
-        .col-s-6 {width: 50%;}
-        .col-s-7 {width: 58.33%;}
-        .col-s-8 {width: 66.66%;}
-        .col-s-9 {width: 75%;}
-        .col-s-10 {width: 83.33%;}
-        .col-s-11 {width: 91.66%;}
-        .col-s-12 {width: 100%;}
-    }
-    @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-    }
-
+.grid-item h1 {
+    font-family: sans-serif, Arial, Helvetica;
+    color: aliceblue;
+    text-align: center;
     
-    .bg_image {
-        /*Image Background
-        background-image: url("img/dots-ivory_result.webp"); 
-        background-size: 30%;
-        background-repeat: repeat;
-        background-attachment: fixed;*/
-        background-color: var(--primary);
-    }
-    
-    .strokeme {
-        /*Outline*/
-        color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    }
-    
+}
+
+.image-link {
+    width: 20rem;
+    height: auto;
+    border-radius: 30px;
+    border-color: #bbb;
+    border-style: solid;
+    border-width: 0.2rem;
+       transition: border-color 1s, border-width 1s;;
+  
+}
+
+.image-link:hover {
+    border-color: #888;
+    border-width: 1rem;
+  
+}
+
+
