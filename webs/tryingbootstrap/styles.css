@@ -1,5 +1,5 @@
 body {
-    background: url('images/ds3_bg.jpg') no-repeat center center fixed;
+    background: url('images/ds3_bg.webp') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -37,17 +37,17 @@ b {
   color: goldenrod;
 }
 .charcoalbg {
-    background-image: url("images/charcoal.jpg"); 
+    background-image: url("images/charcoal.webp"); 
   }
 
 .grandarchivesbg {
-    background-image: url("images/grandarchives.jpg"); 
+    background-image: url("images/grandarchives.webp"); 
     background-size: cover;
     background-position-x: center;
 }
 
 .firstflamekiln {
-  background-image: url("images/firstflamekiln.jpg");
+  background-image: url("images/firstflamekiln.webp");
   background-size: cover;
   background-position-x: center;
 }
