@@ -19,6 +19,13 @@ h3 {
     
 }
 
+h5 {
+  color: rgb(255, 255, 255) ;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  
+}
+
 p {
   color: rgb(255, 255, 255) ;
   font-family: 'Times New Roman', Times, serif;
@@ -56,10 +63,32 @@ b {
   width: 100%;
 }
 
+.ing-cardwidth {
+  width: 11rem;
+}
+
+.cardimgadj{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 768px) {
+  .navwidth {width: 70vw;}
+  p {font-size: 1.2rem;}
+  .ing-cardwidth {width: 19rem;}
+  
+}
+
+@media only screen and (min-width: 992px)
+{
   .navwidth { width: fit-content;}
   p {font-size: 1.2rem;}
+  .ing-cardwidth {width: 19rem;}
+ 
 }
+
+
 
 
 
@@ -73,11 +102,7 @@ b {
   
 }
 
-.card-img-top {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
-}
+
 
 hr {
   color: goldenrod;
@@ -93,7 +118,13 @@ hr {
 }
 
 .potraitimg {
-  height: 300px !important;
+  height: 15vw !important;
   object-fit: cover;
   object-position: center; 
  }
+
+ .nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
