@@ -64,7 +64,7 @@ b {
 }
 
 .ing-cardwidth {
-  width: 11rem;
+  width: 19rem;
 }
 
 .cardimgadj{
@@ -76,7 +76,6 @@ b {
 @media only screen and (min-width: 768px) {
   .navwidth {width: 70vw;}
   p {font-size: 1.2rem;}
-  .ing-cardwidth {width: 19rem;}
   
 }
 
@@ -84,7 +83,6 @@ b {
 {
   .navwidth { width: fit-content;}
   p {font-size: 1.2rem;}
-  .ing-cardwidth {width: 19rem;}
  
 }
 
