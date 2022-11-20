@@ -51,28 +51,63 @@
   </header>
   <main>
   <div class="container charcoalbg border border-3 border-opacity-50 border-warning  rounded">
+
+    <!--Jumps-->
+    <div class="gap-2 text-center my-3">
+      <h3><b>Tools</b></h3>
+      <a href="#BasinOfVows" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Cooking Pot</a>
+      <a href="#Club" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Stirring Tool</a>
+      <a href="#BanditKnife" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Chopping Tool</a>
+      <a href="#FarronCoal" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Something that Burns</a>
+    </div>
+
+    <div class="gap-2 text-center my-3">
+      <h3><b>Ingredients</b></h3>
+      <a href="#EstusFlask" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Estus Flask</a>
+      <a href="#AshenEstusFlask" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Ashen Estus Flask</a>
+      <a href="#GreenBlossom" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Green Blossom</a>
+      <a href="#BuddingGreenBlossom" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Buddin Green Blossom</a>
+      <a href="#DivineBlessing" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Divine Blessing</a><a href="#HiddenBlessing" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Hidden Blessing</a><a href="#MossFruit" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Moss Fruit</a>
+    </div>
+
+    <div class="gap-2 text-center my-3">
+      <h3><b>Steps</b></h3>
+      <a href="#StepOne" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step One</a>
+      <a href="#StepTwo" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Two</a>
+      <a href="#StepThree" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Three</a>
+      <a href="#StepFour" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Four</a>
+      <a href="#StepFive" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Five</a>
+      <a href="#StepSix" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Six</a>
+      <a href="#StepSeven" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Seven</a>
+      <a href="#StepEight" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Step Eight</a>
+      <a href="#End" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">End</a>
+      <a href="#Tableware" class="m-1 btn btn-warning" tabindex="-1" role="button" aria-disabled="true">Tableware</a>
+    </div>
+
     <img src="images/Tools.webp" alt="" class="mx-auto  d-block img-fluid">
-    <div class="card p-3 charcoalbg">
+    
+    <div class="card p-3 charcoalbg" id="BasinOfVows">
       <div class="row">
       
           <div class="col-md-4 d-flex align-items-center">
+            
             <img class="rounded  img-fluid  mx-auto d-block" src="Tools_img/Basin_of_Vows.webp" width="300px">
         </div>
         <div class="col-md-8">
-          <div class="card-body"><h3 class="card-title"><b>Before we begin..</b></h3>
+          <div class="card-body"><h3 class="card-title" ><b>Before we begin..</b></h3>
           <p class="card-text">You need something that can contain the soup, a cooking pot. Basin of Vows will do fine for cooking a soup.</p>
-          <p class="card-text">You can find Basin of Vows in the <a href="#BasinOfVows">Tools Page</a>.</p>
+          <p class="card-text">You can find Basin of Vows in the <a href="./tools.html#BasinOfVows">Tools Page</a>.</p>
           </div>
         </div>
       </div>
      </div>
      <hr>
-     <div class="card p-3 charcoalbg">
+     <div class="card p-3 charcoalbg" id="Club">
       <div class="row">
         <div class="col-md-8">
-          <div class="card-body"><h3 class="card-title"><b>Stirring Tool</b></h3>
+          <div class="card-body"><h3 class="card-title" ><b>Stirring Tool</b></h3>
             <p class="card-text"> Then you need a tool to stir the soup. You may use any weapon you preferred, In this case we're using the Club since there is no ladle item in this game.<i class="text-dark">Dark souls 2 Best game?</i></p>
-            <p>You can find the Club in the <a href="#Club">Tools Page</a>.</p>
+            <p>You can find the Club in the <a href="./tools.html#Club">Tools Page</a>.</p>
           </div>
           </div>
         <div class="col-md-4">
@@ -81,23 +116,25 @@
       </div>
      </div>
      <hr>
-     <div class="card p-3 charcoalbg">
+     <div class="card p-3 charcoalbg" id="BanditKnife">
       <div class="row">
         <div class="col-md-4">
             <img class="rounded  img-fluid " src="Tools_img/Bandit's_Knife_(DSIII).webp">
         </div>
         <div class="col-md-8">
-            <div class="card-body"><h3 class="card-title"><b>Chopping Tool</b></h3>
-            <p class="card-text"> We also need a tool to chop the ingredients you can use any sharp weapon you have, but i recommend using the Bandit's Knife</p><p>You can find the Bandit's Knife in the <a href="#BanditKnife">Tools Page</a>.</p></div>
+            <div class="card-body"><h3 class="card-title" ><b>Chopping Tool</b></h3>
+            <p class="card-text"> We also need a tool to chop the ingredients you can use any sharp weapon you have, but i recommend using the Bandit's Knife</p><p>You can find the Bandit's Knife in the <a href="./tools.html#BanditKnife">Tools Page</a>.</p></div>
+            
         </div>
         </div>
      </div>
      <hr>
-     <div class="card p-3 charcoalbg">
+     <div class="card p-3 charcoalbg" id="FarronCoal">
       <div class="row">
+        
         <div class="col-md-8">
-          <div class="card-body"><h3 class="card-title"><b>Something to Burn</b></h3>
-          <p class="card-text">Then lastly we need something to heat the pot. You can use any coal or young white branch. In this case we're using the Farron's Coal.</p><p>You can find the Farron's Coal in the <a href="#FarronCoal">Tools Page</a>.</p></div>
+          <div class="card-body"><h3 class="card-title" ><b>Something that Burns</b></h3>
+          <p class="card-text">Then lastly we need something to heat the pot. You can use any Coal or Young White Branch. In this case we're using the Farron's Coal.</p><p>You can find the Farron's Coal in the <a href="./tools.html#FarronCoal">Tools Page</a>.</p></div>
         </div>
           <div class="col-md-4">
             <img class="rounded  img-fluid " src="Tools_img/Farron_Coal.webp">
@@ -122,7 +159,7 @@
 
     <div class="card-deck row row-cols-auto p-1 mx-auto justify-content-center">
       
-      <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+      <div id="EstusFlask" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
         <img src="Ingredients_img/Estus_Flask_(DSIII).webp" class="card-img-top cardimgadj" alt="...">
           <div class="card-body">
             <h5 class="card-title"><b>Estus Flask</b></h5>
@@ -130,7 +167,7 @@
             <a href="#" class="btn btn-warning">Location</a>
           </div>
         </div>
-      <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+      <div id="AshenEstusFlask" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
         <img src="Ingredients_img/Ashen_Estus_Flask.webp" class="card-img-top cardimgadj" alt="...">
           <div class="card-body">
             <h5 class="card-title"><b>Ashen Estus Flask</b></h5>
@@ -138,7 +175,7 @@
             <a href="#" class="btn btn-warning">Location</a>
           </div>
         </div>
-      <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+      <div id="GreenBlossom" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
         <img src="Ingredients_img/Green_Blossom_(DSIII).webp" class="card-img-top cardimgadj" alt="...">
           <div class="card-body">
             <h5 class="card-title"><b>Green Blossom</b></h5>
@@ -146,7 +183,7 @@
             <a href="#" class="btn btn-warning">Location</a>
           </div>
         </div>
-      <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+      <div id="BuddingGreenBlossom" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
         <img src="Ingredients_img/Budding_Green_Blossom.webp" class="card-img-top cardimgadj" alt="...">
           <div class="card-body">
             <h5 class="card-title"><b>Budding Green Blossom</b></h5>
@@ -155,7 +192,7 @@
           </div>
         </div>
   
-        <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+        <div id="DivineBlessing" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
           <img src="Ingredients_img/Divine_Blessing_(DSIII).webp" class="card-img-top cardimgadj" alt="...">
             <div class="card-body">
               <h5 class="card-title"><b>Divine Blessing</b></h5>
@@ -164,7 +201,7 @@
             </div>
           </div>
 
-          <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+          <div id="HiddenBlessing" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
             <img src="Ingredients_img/Hidden_Blessing.webp" class="card-img-top cardimgadj" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><b>Hidden Blessing</b></h5>
@@ -173,7 +210,7 @@
               </div>
             </div>
 
-            <div class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
+            <div id="MossFruit" class="card bg-black border border-warning border-opacity-50 bg-opacity-75 m-1 ing-cardwidth">
               <img src="Ingredients_img/Mossfruit.webp" class="card-img-top cardimgadj" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><b>Moss Fruit</b></h5>
@@ -186,7 +223,7 @@
 
      <img src="images/STEPS.webp" alt="" class="mx-auto  d-block img-fluid">
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepOne" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-2">
             <img class="rounded  img-fluid " src="Ingredients_img/Mossfruit.webp">
@@ -200,7 +237,7 @@
 
      <hr>
      
-     <div class="card p-3 charcoalbg">
+     <div id="StepTwo" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-8">
           <div class="card-body"><h3 class="card-title"><b>Step Two</b></h3>
@@ -217,7 +254,7 @@
 
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepThree" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-2">
             <img class="rounded  img-fluid " src="Ingredients_img/Estus_Flask_(DSIII).webp">
@@ -234,7 +271,7 @@
 
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepFour" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-8">
           <div class="card-body"><h3 class="card-title"><b>Step Four</b></h3>
@@ -251,7 +288,7 @@
     
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepFive" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-2">
           <img class="rounded  img-fluid " src="Ingredients_img/Green_Blossom_(DSIII).webp">
@@ -268,7 +305,7 @@
 
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepSix" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-10">
           <div class="card-body"><h3 class="card-title"><b>Step Six</b></h3>
@@ -282,7 +319,7 @@
 
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepSeven" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-2">
             <img class="rounded  img-fluid " src="Ingredients_img/Mossfruit.webp">
@@ -299,7 +336,7 @@
 
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="StepEight" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-8">
           <div class="card-body"><h3 class="card-title"><b>Step Eight</b></h3>
@@ -316,7 +353,7 @@
 
      <hr>
 
-     <div class="card p-3 charcoalbg">
+     <div id="End" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-4">
             <img class="rounded  img-fluid border border-3 border-dark" src="images/darksoups3.webp">
@@ -327,7 +364,7 @@
         </div>
       </div>
      </div>
-     <div class="card p-3 charcoalbg">
+     <div id="Tableware" class="card p-3 charcoalbg">
       <div class="row">
         <div class="col-md-8">
           <div class="card-body"><h3 class="card-title"><b>Tableware</b></h3>
