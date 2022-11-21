@@ -16,10 +16,21 @@
 <body>
   <header>
     <!-- place navbar here -->
-    <div class="container bg-light border border-secondary border-2 rounded my-2" style="width:fit-content"><h3 class="text-center">Comments using Staticman</h3></div>
+    <div class="container bg-light border border-secondary border-2 rounded my-2" style="width:fit-content"><h3 class="text-center">Testing Comments using Cusdis</h3></div>
   </header>
   <main>
-    <div class="container bg-light border border-secondary border-2 rounded my-2"> <br><br></div>
+    <div class="container bg-light border border-secondary border-2 rounded my-2">
+        <div id="cusdis_thread"
+            data-host="https://cusdis.com"
+            data-app-id="73c74135-7191-47b4-9ad4-9b8967085b0b"
+            data-page-id="{{ PAGE_ID }}"
+            data-page-url="{{ PAGE_URL }}"
+            data-page-title="{{ PAGE_TITLE }}"
+            >
+        </div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script> 
+        <br><br>
+    </div>
   </main>
   <footer>
     <!-- place footer here -->
